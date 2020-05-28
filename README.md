@@ -1,17 +1,16 @@
-## All samples use the Node 8 runtime with ES2017 syntax.
+# All samples use the Node 8 runtime with ES2017 syntax
 
-# Cloud Functions for Firebase Sample Library
+## Cloud Functions for Firebase Sample Library
 
 This repository contains a collection of samples showcasing some typical uses of [Cloud Functions for Firebase](https://firebase.google.com/features/functions).
 
-### What's Cloud Functions for Firebase?
+### What's Cloud Functions for Firebase
 
 Cloud Functions is a hosted, private, and scalable Node.js environment where you can run JavaScript code. [Cloud Functions for Firebase](https://firebase.google.com/features/functions) integrates the Firebase platform by letting you write code that responds to events and invokes functionality exposed by other Firebase features.
 
 ## Prerequisites
 
 To learn how to get started with Cloud Functions for Firebase by having a look at our [Getting Started Guide](https://firebase.google.com/docs/functions/get-started), trying the [quickstart samples](/quickstarts) and looking at [the documentation](https://firebase.google.com/docs/functions).
-
 
 ## Samples Overview
 
@@ -24,8 +23,8 @@ different, commonly used JavaScript development patterns such as Typescript, Rea
  1. [**Firebase Realtime Database Data Consistency**](#rtdb) shows how to implement automatic data consistency such as keeping a count of children, having a max amount of node childs, cleaning up old data etc... for your Realtime Database.
  1. [**Other common usecases**](#other) a set of other common usecases for Cloud Functions.
 
+`<a name="quickstarts"></a>`
 
-<a name="quickstarts"></a>
 ## Quickstarts
 
 Here is a set of minimal samples for each Cloud Functions trigger types.
@@ -63,7 +62,8 @@ This quickstart sample demonstrates using **Cloud Functions** triggered by **Cra
 This quickstart demonstrates how to trigger a function in response to the
 completion of a test matrix in **Firebase Test Lab**.
 
-<a name="environment"></a>
+`<a name="environment"></a>`
+
 ## Development Environment Samples and Boilerplates
 
 The Firebase CLI generates sample code for Cloud Functions using JavaScript
@@ -82,15 +82,17 @@ Uses an **HTTPS request**.
 This sample shows how to serve server-side generated HTML pages using the [HandlebarsJs](http://handlebarsjs.com/) templating system and serve user-specific content by always passing the Firebase ID token in a `__session` cookie.
 
 ### [Isomorphic React App](/isomorphic-react-app)
+
 This sample demonstrates how to create an isomorphic React application with server-side data fetching. This sample uses Cloud Functions, Hosting, and the Realtime Database.
 
+`<a name="image"></a>`
 
-<a name="image"></a>
 ## Image Processing
 
 Here is a few sample that shows how you can process or analyze images using Cloud Functions.
 
 ### [Image Maker](/image-maker)
+
 This sample demonstrates how to create various customized images such as sparkline or sphere charts through Cloud Functions and Hosting and serve it to the client.
 Uses an HTTP trigger.
 
@@ -119,8 +121,8 @@ Uses a Firebase Storage trigger.
 Demonstrates how to automatically extract image's metadata using ImageMagick for images that are uploaded to Firebase Storage.
 Uses a Firebase Storage trigger.
 
+`<a name="rtdb"></a>`
 
-<a name="rtdb"></a>
 ## Firebase Realtime Database Data Consistency
 
 These samples show how to implement automatic data consistency such as keeping a count of children, having a max amount of node childs, cleaning up old data etc...
@@ -146,8 +148,8 @@ Uses a Realtime Database trigger.
 This sample shows how to remove child nodes older than 2 hours from a Firebase Database list. This can be useful for removing outdated items from a collection.
 Uses a Realtime Database trigger.
 
+`<a name="other"></a>`
 
-<a name="other"></a>
 ## Other common usecases
 
 ### [Send FCM notifications](fcm-notifications)
@@ -214,8 +216,9 @@ Uses a Realtime Database or Cloud Firestore trigger.
 
 Deletes all associated user data in the Realtime database when a user deletes his Firebase account.
 Uses an Auth trigger.
-**This code has moved to its own repo at
-https://github.com/firebase/user-data-protection**
+**This code has moved to its own repo at**
+
+`https://github.com/firebase/user-data-protection`
 
 ### [Export your data to a Google Spreadsheet](google-sheet-sync)
 
@@ -272,11 +275,9 @@ Uses a Crashlytics trigger.
 Automatically sends a Slack notification to a specific Slack channel when a new issue is reported in Crashlytics.
 Uses a Crashlytics trigger.
 
-
 ## Contributing
 
 We'd love that you contribute to the project. Before doing so please read our [Contributor guide](CONTRIBUTING.md).
-
 
 ## License
 
